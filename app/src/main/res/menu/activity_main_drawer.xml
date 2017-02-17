@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_ball"
+            android:icon="@mipmap/ball1"
+            android:title="Football" />
+        <item
+            android:id="@+id/nav_boxing"
+            android:icon="@mipmap/boxing"
+            android:title="Boxing" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/contacts"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@mipmap/plaining"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@mipmap/shadowed"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_deverloper"
+
+            android:title="Deverloped by IBS" />
+    </group>
+
+</menu>
